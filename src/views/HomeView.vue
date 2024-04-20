@@ -9,7 +9,7 @@ new Promise(async (resolve, reject) => {
   try {
     response = await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', {
       headers: {
-        'X-CMC_PRO_API_KEY': '16749118-b7c5-420c-9fb8-15ed1253abe0',
+        'X-CMC_PRO_API_KEY': 'API key',
         // api key hierboven is dus mijn eigen API key
       },
     });
